@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* elementos base */
+
+body{
+    background-color: var(--preta);
+    font-family: 'Righteous', cursive; 
+    color: white; 
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .Logo{
+    margin-left: 5px ;
+     color:var(--vermelho);
+     font-family: 'Righteous', cursive;
+     font-size: 40px;
+}
+
+header nav a{
+    text-decoration: nome;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff
+    ;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background:  url(/img/demolidor3.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
+
+.filme-principal .titulo{
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+
+}
+
+.botão{
+    font-family: 'Righteous', cursive;
+    background-color: rgba(122, 13, 13, 0.5);
+    border: nome;
+    color: rgb(145, 26, 95);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botão:hover{
+    background-color: white;
+    color: black;
+}
+
+.botão.i{
+    margin-right: 8px;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
