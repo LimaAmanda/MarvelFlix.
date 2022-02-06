@@ -83,7 +83,7 @@ header nav a:hover{
     font-family: 'Righteous', cursive;
     background-color: rgba(13, 106, 168, 0.205);
     border: nome;
-    color: rgb(164, 41, 175);
+    color: rgb(228, 27, 184);
 
     padding: 15px 30px;
     margin-right: 15px;
@@ -94,7 +94,7 @@ header nav a:hover{
 }
 
 .botão:hover{
-    background-color: rgb(194, 89, 197);
+    background-color: rgb(201, 198, 67);
     color: rgb(60, 145, 126);
 }
 
