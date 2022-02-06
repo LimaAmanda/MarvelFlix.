@@ -35,11 +35,15 @@ header .Logo{
      color:var(--vermelho);
      font-family: 'Righteous', cursive;
      font-size: 40px;
+     padding: 20px 20px;
+     margin-right: 5px;
+     
+
 }
 
 header nav a{
     text-decoration: nome;
-    color: #AAA;
+    color: rgb(134, 17, 56);
     margin-right: 10px;
 }
 
@@ -77,9 +81,9 @@ header nav a:hover{
 
 .botão{
     font-family: 'Righteous', cursive;
-    background-color: rgba(122, 13, 13, 0.5);
+    background-color: rgba(13, 106, 168, 0.205);
     border: nome;
-    color: rgb(145, 26, 95);
+    color: rgb(164, 41, 175);
 
     padding: 15px 30px;
     margin-right: 15px;
@@ -90,8 +94,8 @@ header nav a:hover{
 }
 
 .botão:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(194, 89, 197);
+    color: rgb(60, 145, 126);
 }
 
 .botão.i{
